@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CORONAVIRUS"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:textSize="35dp"
+        android:layout_y="15dp"
+        />
+
+    <TextView
+        android:layout_below="@+id/grade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:padding="16dp"
+        android:textColor="#000000"
+        android:text="Coronavirus disease is an infectious disease caused by a new virus called the COVID-19. The disease causes respiratory illness (like the flu) with symptoms such as a cough, fever, and in more severe cases, difficulty of breathing. As of now, there is no proper cure/vaccine for this disease. The first case in Bangladesh was confirmed on 7 March 2020 by the IEDCR. Considering the health system, Bangladesh is currently at a very high risk of probable nationwide spread of the virus."
+        android:layout_marginTop="50dp"
+        />
+
+    <TextView
+        android:layout_below="@+id/grade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:textColor="#000000"
+        android:text="SYMPTOMS"
+        android:textStyle="bold"
+        android:layout_marginTop="400dp"
+        />
+
+    <TextView
+        android:layout_below="@+id/grade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:padding="16dp"
+        android:textColor="#000000"
+        android:text="1.Fever                                                   2.Cough                                            3.Shortness of Breath                                 The symptoms may appear 2-14 days after exposure."
+        android:layout_marginTop="440dp"
+        />
+
+</RelativeLayout>

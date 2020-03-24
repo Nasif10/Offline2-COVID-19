@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    tools:context=".ResultsActivity">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/outOf"
+        android:layout_below="@+id/grade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:textColor="#000000"
+        android:text="You scored"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Button
+        android:layout_below="@+id/outOf"
+        android:id="@+id/retry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Retry Quiz"
+        android:padding="8dp"
+        android:layout_margin="4dp"
+        android:textColor="#fff"
+        android:background="#4CAF50"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:layout_below="@+id/grade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:textColor="#000000"
+        android:text="Answer"
+        android:layout_marginTop="130dp"
+        />
+
+    <TextView
+        android:layout_below="@+id/grade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:padding="16dp"
+        android:textColor="#000000"
+        android:text="1. COVID-19 virus can be transmitted in all areas, including areas with hot and humid weather. Regardless of climate, adopt protective measures if you live in, or travel to an area reporting COVID-19"
+        android:layout_marginTop="195dp"
+        />
+
+    <TextView
+        android:layout_below="@+id/grade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:padding="16dp"
+        android:textColor="#000000"
+        android:text="2. Vaccines against pneumonia, such as pneumococcal vaccine and Haemophilus influenzae type B (Hib) vaccine, do not provide protection against the new coronavirus. The virus is so new and different that it needs its own vaccine. Researchers are trying to develop a vaccine against 2019-nCoV"
+        android:layout_marginTop="330dp"
+        />
+
+    <TextView
+        android:layout_below="@+id/grade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:padding="16dp"
+        android:textColor="#000000"
+        android:text="3. People of all ages can be infected by the new coronavirus (2019-nCoV).. Younger people have less chance of developing symptoms, however they can still transmit the disease to others."
+        android:layout_marginTop="530dp"
+        />
+
+    <TextView
+        android:layout_below="@+id/grade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:padding="16dp"
+        android:textColor="#000000"
+        android:text="4. Antibiotics do not work on any virus, including COVID-19. They are only effective against bacteria."
+        android:layout_marginTop="660dp"
+        />
+
+    <TextView
+        android:layout_below="@+id/grade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:padding="16dp"
+        android:textColor="#000000"
+        android:text="5. There is no evidence that consuming Thankuni leaves can help grow a resistance against the new coronavirus."
+        android:layout_marginTop="740dp"
+        />
+
+    <TextView
+        android:layout_below="@+id/grade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:padding="16dp"
+        android:textColor="#000000"
+        android:text="6. Wear a mask if you are taking care of someone who is sick, or you are coughing or sneezing. However, there is no harm in wearing a mask, but make sure you use it PROPERLY. Look at the source for instructions on how to wear masks."
+        android:layout_marginTop="830dp"
+        />
+
+    <TextView
+        android:layout_below="@+id/grade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:padding="16dp"
+        android:textColor="#000000"
+        android:text="7. As of right now, only the Institute of Epidemiology, Disease Control and Research (IEDCR) can test for coronavirus in Bangladesh. "
+        android:layout_marginTop="980dp"
+        />
+
+    <TextView
+        android:layout_below="@+id/grade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:padding="16dp"
+        android:textColor="#000000"
+        android:text="8. There is no evidence that this test works and no health expert has recommended doing this."
+        android:layout_marginTop="1090dp"
+        />
+
+    <TextView
+        android:layout_below="@+id/grade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:padding="16dp"
+        android:textColor="#000000"
+        android:text="9. The coronavirus (COVID-19) spreads via respiratory droplets and contaminated surfaces, NOT blood. However, mosquitoes can spread dengue, malaria and other deadly diseases."
+        android:layout_marginTop="1170dp"
+        />
+
+    <TextView
+        android:layout_below="@+id/grade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:padding="16dp"
+        android:textColor="#000000"
+        android:text="10. Laboratory data demonstrate that 60% ethanol and 70% isopropanol, the active ingredients in CDC-recommended alcohol-based hand sanitizers."
+        android:layout_marginTop="1300dp"
+        />
+
+
+
+</RelativeLayout>
+</ScrollView>

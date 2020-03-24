@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/c2" >
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COVID-19  Tracker"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorWhite"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        />
+
+
+    <Button
+        android:id="@+id/in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OPEN"
+        android:textSize="20dp"
+        android:onClick="info"
+        android:textColor="#ebeb00"
+        android:background="#0f3752"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp" />
+
+
+</RelativeLayout>

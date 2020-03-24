@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/table"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:collapseColumns="2"
+    tools:context=".activity_table">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Table"
+        android:textStyle="bold"
+        android:layout_marginBottom="15dp"
+        android:gravity="center_horizontal"
+        android:textSize="35dp"
+        />
+
+    <TableRow
+        android:background="#00e699"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No."
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tablet"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Same as"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="a+a+a"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Day"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:gravity="center"
+            />
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:layout_weight="1"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ace"
+            android:layout_weight="1"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Paracetamol"
+            android:layout_weight="1"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1+1+1"
+            android:layout_weight="1"
+            android:gravity="center"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:layout_weight="1"
+            android:gravity="center"
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:layout_weight="1"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alatrol"
+            android:layout_weight="1"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Anti-Histamin"
+            android:layout_weight="1"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="0+0+1"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7"
+            android:layout_weight="1"
+            android:gravity="center"
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:layout_weight="1"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seclo 20"
+            android:layout_weight="1"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Omeprazole"
+            android:layout_weight="1"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="1+0+1"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7"
+            android:layout_weight="1"
+            android:gravity="center"
+            />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salaine"
+            android:layout_weight="1"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_weight="1"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0+1+1"
+            android:layout_weight="1"
+            android:gravity="center"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7"
+            android:layout_weight="1"
+            android:gravity="center"
+            />
+    </TableRow>
+
+
+    <Button
+        android:id="@+id/switchBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="Show same type medicine"
+        android:textAllCaps="false"
+        android:onClick="collapseTable"
+        />
+
+</TableLayout>

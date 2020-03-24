@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/c1"
+    tools:context=".activity_absolute">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Absolute Layout"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:textSize="35dp"
+        android:layout_y="15dp"
+        />
+
+
+    <Button
+        android:id="@+id/ab"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:onClick="abo"
+        android:text="About COVID-19"
+        android:textSize="20dp"
+        android:background="@drawable/custom_edit_text_cp"
+        android:layout_x="80dp"
+        android:layout_y="120dp"
+        />
+
+
+    <Button
+        android:id="@+id/pi"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:onClick="pic"
+        android:text="COVID-19 Pic"
+        android:textSize="20dp"
+        android:background="@drawable/custom_edit_text_cp"
+        android:layout_x="80dp"
+        android:layout_y="190dp"
+        />
+
+
+    <Button
+        android:id="@+id/ti"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:onClick="tips"
+        android:text="PREVENTION TIPS"
+        android:textSize="20dp"
+        android:background="@drawable/custom_edit_text_cp"
+        android:layout_x="80dp"
+        android:layout_y="260dp"
+        />
+
+    <Button
+        android:id="@+id/wh"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:onClick="wh"
+        android:text="WHO"
+        android:textSize="20dp"
+        android:background="@drawable/custom_edit_text_cp"
+        android:layout_x="80dp"
+        android:layout_y="400dp"
+        />
+
+    <Button
+        android:id="@+id/i"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="IEDCR"
+        android:textSize="20dp"
+        android:onClick="ie"
+        android:background="@drawable/custom_edit_text_cp"
+        android:layout_x="210dp"
+        android:layout_y="400dp"
+        />
+
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_x="80dp"
+        android:layout_y="470dp"
+        android:textSize="20dp"
+        android:background="@drawable/custom_edit_text_cp"
+        android:onClick="qu"
+        android:text="TRUE OR FALSE" />
+
+
+    <Button
+        android:id="@+id/sta"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_x="80dp"
+        android:layout_y="540dp"
+        android:background="@drawable/custom_edit_text_cp"
+        android:onClick="stat"
+        android:textSize="20dp"
+        android:text="Statistics" />
+
+    <Button
+        android:id="@+id/pr"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Prescription"
+        android:textSize="20dp"
+        android:layout_x="80dp"
+        android:layout_y="330dp"
+        android:background="@drawable/custom_edit_text_cp"
+        android:onClick="pre" />
+
+</AbsoluteLayout>
